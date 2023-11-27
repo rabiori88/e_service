@@ -37,7 +37,7 @@ public class Orders {
     public String GLN_PLANT_UserID;
     public String GLN_VENDOR_UserID;
     public String GLN_COMPANY_UserID;
-
+    public String Msg;
 
 
 

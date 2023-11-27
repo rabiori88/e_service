@@ -10,7 +10,8 @@ public class ComService {
         String newVendorCode = "";
         String connectionUrl =
                 "jdbc:sqlserver://10.123.185.197;" +
-                        "databaseName=AdventureWorks;integratedSecurity=true;" +
+                        "databaseN" +
+                        "ame=AdventureWorks;integratedSecurity=true;" +
                         "encrypt=true;trustServerCertificate=true";
 
 //        using (SqlConnection conn = new SqlConnection(this.connectionString))

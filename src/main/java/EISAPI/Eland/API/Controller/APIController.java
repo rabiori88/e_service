@@ -25,6 +25,7 @@ public class APIController {
     public List<Orders> getOrders(@ModelAttribute Orders orders) throws SQLException {
 
         String sql = "[dbo].[up_SP_IF_CNT_POInfoList_R] ?,? ";
+//        List<Orders> test =  jdbcTemplate.query(sql, BeanPropertyRowMapper.newInstance(Orders.class) , orders.getVendorCode(), orders.getPONO());
         List<Orders> test =  jdbcTemplate.query(sql, BeanPropertyRowMapper.newInstance(Orders.class) , orders.getVendorCode(), orders.getPONO());
 
         return test;
